@@ -1,0 +1,25 @@
+[
+    {
+     "AliasTarget": {
+      "DNSName": "web.us-east-1.sre.wsf.dev.npd.bfsaws.net.",
+      "EvaluateTargetHealth": true,
+      "HostedZoneId": "Z07944991LMIQ6M5XRXDI"
+     },
+     "Name": "canarylambda.wsf.dev.npd.bfsaws.net.",
+     "SetIdentifier": "us east 1 alb",
+     "Type": "A",
+     "Weight": 50
+    },
+    {
+     "AliasTarget": {
+      "DNSName": "web.us-west-2.sre.wsf.dev.npd.bfsaws.net.",
+      "DNSNameprd": "web.us-east-1.gen6.wsf.prd.prd.bfsaws.net.",
+      "EvaluateTargetHealth": true,
+      "HostedZoneId": "Z07944991LMIQ6M5XRXDI"
+     },
+     "Name": "canarylambda.wsf.dev.npd.bfsaws.net.",
+     "SetIdentifier": "us west 2 alb",
+     "Type": "A",
+     "Weight": 50
+    }
+   ]
